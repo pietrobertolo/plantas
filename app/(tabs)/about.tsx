@@ -4,9 +4,9 @@ import { Link } from 'expo-router';
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Tela de inicio</Text>
-      <Link href="/about" style={styles.button}>
-       Go to aboute screen
+      <Text style={styles.text}>Sobre a tela</Text>
+      <Link href="/index" style={styles.button}>
+      Go to Home screen
       </Link>
     </View>
   );
@@ -15,16 +15,17 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#b64646',
+    backgroundColor: '#4ab646',
     alignItems: 'center',
     justifyContent: 'center',
   },
   text: {
     color: '#000000',
   },
-  button: {
+   button: {
     fontSize: 20,
     textDecorationLine: 'underline',
     color: '#fff',
   },
 });
+
