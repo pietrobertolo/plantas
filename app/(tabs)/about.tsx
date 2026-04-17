@@ -4,10 +4,10 @@ import { Link } from 'expo-router';
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Sobre a tela</Text>
-      <Link href="/index" style={styles.button}>
-      Go to Home screen
-      </Link>
+      <Text style={styles.text}>
+        Meu nome é Pietro Martins Bertolo tenho 17 anos 
+        e esse é meu site sobre somentes plantas e flores
+      </Text>
     </View>
   );
 }
