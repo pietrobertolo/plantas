@@ -34,7 +34,7 @@ export default function Index() {
       setSelectedImage(result.assets[0].uri);
       setShowAppOptions(true);
     } else{
-      alert('You did not select any image.');
+      alert('Você não selecionou uma imagem!');
     }
   };
 
@@ -91,8 +91,8 @@ export default function Index() {
         </View>
       ) : (
       <View style={styles.footerContainer}>
-         <Button theme ="primary" label="choose a photo" onPress={pickImageAsync}/>
-         <Button label="Use this photo" onPress={() => setShowAppOptions(true)}/>   
+         <Button theme ="primary" label="Escolha uma foto" onPress={pickImageAsync}/>
+         <Button label="Use essa foto" onPress={() => setShowAppOptions(true)}/>   
       </View>
        )}
        <EmojiPicker isVisible={isModalVisible} onClose={onModalClose}>

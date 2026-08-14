@@ -6,7 +6,7 @@ export default function BuscaCEP() {
 
   return (
     <View style={styles.container}>
-      <Text>Consulte seu CEP</Text>
+      <Text>Encontre uma planta</Text>
 
       <TextInput
         style={styles.textInput}
