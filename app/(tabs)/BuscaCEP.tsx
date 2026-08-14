@@ -38,7 +38,7 @@ export default function BuscaCEP() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#35e6ce',
     alignItems: 'center',
     justifyContent: 'center',
     padding: 16,

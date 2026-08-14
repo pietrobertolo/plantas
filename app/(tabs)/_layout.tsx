@@ -1,5 +1,6 @@
 import { Tabs } from 'expo-router';
 import Ionicons from '@expo/vector-icons/Ionicons';
+import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 
 export default function TabLayout() {
     return (
@@ -29,6 +30,13 @@ export default function TabLayout() {
          <Tabs.Screen name="toDoList" options={{ title: 'Lista', 
                 tabBarIcon: ({ color, focused}) => (
                 <Ionicons name={focused ? 'list' : 'list-outline'} color={color} size={24}/>
+                ),
+            }}
+         />
+
+         <Tabs.Screen name="buscaCEP" options={{ title: 'Cep', 
+                tabBarIcon: ({ color, focused}) => (
+                <MaterialIcons name={focused ? 'my-location' : 'location-searching'} color={color} size={24}/>
                 ),
             }}
          />
