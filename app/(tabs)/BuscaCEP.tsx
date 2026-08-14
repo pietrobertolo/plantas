@@ -1,5 +1,5 @@
 import { Button, StyleSheet, Text, TextInput, View } from 'react-native';
-import { useBuscaCep } from './hooks/useBuscaCep';
+import { useBuscaCep } from '@/hooks/useBuscaCep';
 
 export default function BuscaCEP() {
   const { cep, setCep, endereco, buscarCEP } = useBuscaCep();

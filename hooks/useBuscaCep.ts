@@ -7,7 +7,7 @@ interface Endereco {
   uf: string;
 }
 
-export function useBuscaCEP() {
+export function useBuscaCep() {
   const [cep, setCep] = useState<string>('');
   const [endereco, setEndereco] = useState<Endereco>({
     logradouro: '',
