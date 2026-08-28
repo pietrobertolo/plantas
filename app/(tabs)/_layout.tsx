@@ -40,6 +40,13 @@ export default function TabLayout() {
                 ),
             }}
          />
+
+         <Tabs.Screen name="pix" options={{ title: 'Pagamento', 
+                tabBarIcon: ({ color, focused}) => (
+                <MaterialIcons name={focused ? 'money-off' : 'attach-money'} color={color} size={24}/>
+                ),
+            }}
+         />
         </Tabs>
     );
 }
