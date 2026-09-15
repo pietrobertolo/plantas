@@ -5,7 +5,7 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>
-        Meu nome é Pietro Martins Bertolo tenho 17 anos 
+        Meu nome é Pietro Martins Bertolo tenho 18 anos 
         e esse é meu site sobre somentes plantas e flores
       </Text>
     </View>
