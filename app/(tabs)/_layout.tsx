@@ -4,7 +4,9 @@ import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 
 export default function TabLayout() {
     return (
-        <Tabs screenOptions={{tabBarActiveTintColor: '#4eb127', 
+        <Tabs screenOptions={{
+            tabBarActiveTintColor: '#4eb127', 
+            tabBarInactiveTintColor:'#fff', 
         headerStyle: {
             backgroundColor: '#25292e',
         },
